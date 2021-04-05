@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3a80d6"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Result">
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="score"
+        android:textAllCaps="true"
+        android:textSize="26sp"
+        android:textColor="#fff"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/restart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="play again"
+        android:layout_marginBottom="10dp"
+        android:background="#fff"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="best score"
+        android:textAllCaps="true"
+        android:textSize="26sp"
+        android:textColor="#fff"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/best"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:textSize="26sp"/>
+
+
+
+</LinearLayout>

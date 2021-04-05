@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3a80d6"
+    android:padding="16dp"
+    android:id="@+id/field"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="time"
+        android:textAllCaps="true"
+        android:textColor="#fff"
+        android:textSize="25sp" />
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="score"
+        android:textAllCaps="true"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:layout_alignParentRight="true"/>
+    <Button
+        android:id="@+id/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="play"
+        android:layout_centerInParent="true"
+        android:background="#fff" />
+
+</RelativeLayout>
